@@ -90,8 +90,8 @@ svg {
 
 
 
-
+/* this is the start of a new page */
 .section2 {
     height: 100vh;
-    background-color: red;
+    background-color: rgb(141, 145, 238);
 }
