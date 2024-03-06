@@ -7,7 +7,7 @@
 .nav {
     /* border: 2px solid black; */
     height: 10vh;
-    background-color: white;
+    /* background-color: white; */
     box-shadow: 0 0 50px black;
     position: sticky;
     top: 0;
@@ -91,7 +91,7 @@ svg {
 
 
 /* this is the start of a new page */
-.section2 {
+.Section2 {
     height: 100vh;
     background-color: rgb(141, 145, 238);
 }
