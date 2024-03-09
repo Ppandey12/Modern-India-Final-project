@@ -75,7 +75,7 @@
 }
 
 #rightcont>h1 {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     font-size: 4rem;
     margin: 3rem 8rem 10rem 4rem;
 }
@@ -90,12 +90,12 @@
 
 .leftParagraph {
     font-size: 1.5rem;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin: -6rem 4rem 3rem 4rem;
 }
 
 .leftButton {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     justify-content: center;
 }
@@ -167,47 +167,6 @@
     transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
 }
 
-/* #leftButton {
-    z-index: 100;
-    width: 7rem;
-    height: 3rem;
-}
-
-#leftButton>a {
-    font-size: 20px;
-    text-decoration: none;
-} */
-
-/* 
-#leftButtonP {
-    font-size: 20px;
-    text-decoration: none;
-} */
-
-
-/* #rightcont,
-#leftcont {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid beige;
-}
-
-
-
-
-.leftButton {
-    z-index: 100;
-
-}
-
-#leftcont,
-p {
-    font-size: 1.5rem;
-    margin-top: -80px;
-} */
-
-
 
 svg {
     position: absolute;
@@ -215,8 +174,47 @@ svg {
     left: 0;
 }
 
+/* /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/ */
+/* this is the start of the About */
+
+
+.about1 {
+    height: 92vh;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(27deg, rgba(2, 0, 36, 1) 0%, rgba(38, 110, 138, 1) 46%, rgba(0, 212, 255, 1) 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* this is the start of a new page */
 .carousel {
     height: 92vh;
-    background-color: rgb(141, 145, 238);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(27deg, rgba(2, 0, 36, 1) 0%, rgba(38, 110, 138, 1) 46%, rgba(0, 212, 255, 1) 100%);
+}
+
+
+
+
+
+
+
+
+/* this is the start of a new page */
+.sources1 {
+    height: 92vh;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(27deg, rgba(2, 0, 36, 1) 0%, rgba(38, 110, 138, 1) 46%, rgba(0, 212, 255, 1) 100%);
 }
