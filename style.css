@@ -193,8 +193,59 @@ svg {
 
 
 
+.timeline_section {
+    height: 92vh;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(27deg, rgba(2, 0, 36, 1) 0%, rgba(38, 110, 138, 1) 46%, rgba(0, 212, 255, 1) 100%);
+}
+
+.contaier1 {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: end;
+}
+
+.time {
+
+    background-color: #90c1f2;
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+    width: 5rem;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 8rem;
+    right: 1rem;
+    border-radius: 10px;
+}
+
+.contaier2 {
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 92%;
+    background-image: url(./Assets/1991-Financial-Crisis-in-India-StartupTalky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
 
 
+.information{
+    border: 1px solid black;
+    margin: 9rem 0 0 5rem;
+    width: 25rem;
+    height: 30rem;
+}
+
+
+
+.timeline_section2 {
+    height: 100vh;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(27deg, rgba(2, 0, 36, 1) 0%, rgba(38, 110, 138, 1) 46%, rgba(0, 212, 255, 1) 100%);
+}
 
 
 

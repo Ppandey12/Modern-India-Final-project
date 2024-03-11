@@ -10,3 +10,6 @@ upwords economy - https://admirableindia.wordpress.com/2015/07/07/1991-economy-s
 
 singh and gold - Erum Gour/The Quint / https://www.thequint.com/news/india/economic-slowdown-1991-reforms-explained-india
 
+
+
+1991 finitial crisis - https://startuptalky.com/1991-financial-crisis-case-study/
