@@ -232,7 +232,7 @@ svg {
 }
 
 
-.information{
+.information {
     border: 1px solid black;
     margin: 9rem 0 0 5rem;
     width: 25rem;
@@ -252,8 +252,29 @@ svg {
 
 
 /* this is the start of a new page */
-.sources1 {
+.unordered {
     height: 92vh;
     background: rgb(2, 0, 36);
     background: linear-gradient(27deg, rgba(2, 0, 36, 1) 0%, rgba(38, 110, 138, 1) 46%, rgba(0, 212, 255, 1) 100%);
+}
+
+.bigContainer {
+    /* border: 2px solid black; */
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list {
+    border: 2px solid black;
+    width: 50%;
+    height: 80%;
+    margin: 1rem 0 0 0;
+    box-shadow: 0px -6px 100px 21px rgba(0,0,0);
+}
+
+.list>.list1 {
+    margin: 2rem 1rem 0 1rem;
 }
