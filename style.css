@@ -266,6 +266,9 @@ svg {
     align-items: center;
     flex-direction: column;
 }
+.bigContainer>h1{
+color: white;
+}
 
 .list {
     border: 2px solid black;
@@ -277,4 +280,5 @@ svg {
 
 .list>.list1 {
     margin: 2rem 1rem 0 1rem;
+    color: white;
 }
