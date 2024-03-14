@@ -221,6 +221,13 @@ svg {
     border-radius: 10px;
 }
 
+.timeline_section2, .timeline_section3, .timeline_section4 {
+    height: 100vh;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(27deg, rgba(2, 0, 36, 1) 0%, rgba(38, 110, 138, 1) 46%, rgba(0, 212, 255, 1) 100%);
+}
+
+/* this is for the 1990 part  of the timeline */
 .contaier2 {
     /* border: 1px solid black; */
     height: 100%;
@@ -239,13 +246,50 @@ svg {
     height: 30rem;
 }
 
+/* this is for the 1991 part of the timeline */
 
 
-.timeline_section2 {
-    height: 100vh;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(27deg, rgba(2, 0, 36, 1) 0%, rgba(38, 110, 138, 1) 46%, rgba(0, 212, 255, 1) 100%);
+.contaier3 {
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 92%;
+    background-image: url(./Assets/rao\ and\ singh.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
 }
+
+
+.information3 {
+    border: 1px solid black;
+    margin: 9rem 0 0 40%;
+    width: 25rem;
+    height: 30rem;
+    color: white;
+}
+
+.contaier4 {
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 92%;
+    /* background-image: url(./Assets/rao\ and\ singh.webp); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+
+.information4 {
+    border: 1px solid black;
+    margin: 9rem 0 0 40%;
+    width: 25rem;
+    height: 30rem;
+    color: white;
+}
+
+
+
+
 
 
 
@@ -268,11 +312,13 @@ svg {
 }
 
 .bigContainer>h2 {
-    color: white;
+    color: rgb(255, 255, 255);
+    z-index: 1;
 }
 
 .list {
     /* border: 2px solid black; */
+    border-radius: 20px;
     width: 50%;
     height: 80%;
     margin: 1rem 0 0 0;
@@ -281,5 +327,5 @@ svg {
 
 .list>.list1 {
     margin: 2rem 1rem 0 1rem;
-    color: white;
+    color: rgb(255, 255, 255);
 }
